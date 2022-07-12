@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import "./cards.styles.scss";
 
-function App() {
+const App = () => {
+  const exampleCode = [
+    {
+      id: 1,
+      title: "Project 1",
+    },
+    {
+      id: 2,
+      title: "Project 2",
+    },
+    {
+      id: 3,
+      title: "Project 3",
+    },
+    {
+      id: 4,
+      title: "Project 4",
+    },
+    {
+      id: 5,
+      title: "Project 5",
+    },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="cards-container">
+      {exampleCode.map(({ title }) => (
+        <div className="card-container">
+          <div className="background-image" />
+          <div className="card-content-container">
+            <h2>{title}</h2>
+            <p>Click to See</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
-}
+};
 
 export default App;
