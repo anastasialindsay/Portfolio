@@ -23,18 +23,10 @@ const Navigation = () => {
           <Link className="nav-link" to="/about">
             ABOUT
           </Link>
-          {/* {currentUser ? (
-            <span className="nav-link" onClick={signOutUser}>
-              SIGN OUT
-            </span>
-          ) : (
-            <Link className="nav-link" to="/auth">
-              SIGN IN
-            </Link>
-          )} */}
-          {/* <CartIcon /> */}
+          <Link className="nav-link" to="/contact">
+            CONTACT
+          </Link>
         </div>
-        {/* {isCartOpen && <CartDropdown />} */}
       </div>
       <Outlet />
     </Fragment>

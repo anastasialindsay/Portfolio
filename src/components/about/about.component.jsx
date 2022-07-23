@@ -1,3 +1,5 @@
+import "./about.styles.scss";
+
 const About = () => {
   return <div>This is the about page</div>;
 };
