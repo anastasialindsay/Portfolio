@@ -1,0 +1,22 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.landing-textbox {
+  background-color: #979797;
+  text-align: center;
+  padding: 75px 150px;
+  font-family: "Paytone One", sans-serif;
+
+  .copy {
+    color: #f8f8f8;
+    font-size: 75px;
+    font-weight: 800;
+  }
+  .big {
+    color: #10376d;
+    font-size: 75px;
+    font-weight: 800;
+  }
+}
