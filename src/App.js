@@ -4,9 +4,9 @@ import Navigation from "./components/navigation/navigation.component";
 import ProjectCard from "./components/project-card/project-card.component";
 import About from "./components/about/about.component";
 import Contact from "./components/contact/contact.component";
-import EmployeeLookup from "./components/projects/employee-lookup.component";
-import LandingPage from "./components/projects/landing-page.component";
-import Project03 from "./components/projects/project03.component";
+import EmployeeLookup from "./components/projects/employee-lookup/employee-lookup.component";
+import LandingPage from "./components/projects/landing-page/landing-page.component";
+import Project03 from "./components/projects/project03/project03.component";
 
 const App = () => {
   return (
