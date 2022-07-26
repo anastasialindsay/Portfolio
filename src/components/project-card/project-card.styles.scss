@@ -1,6 +1,7 @@
 .project-card-container {
   margin-top: 75px;
   display: flex;
+  justify-content: center;
 }
 
 .project-card {
@@ -10,41 +11,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid #979797;
   margin: 0 7.5px 15px;
   overflow: hidden;
 
-  &:hover {
-    // cursor: pointer;
-
-    & .project-body-container {
-      opacity: 0.9;
-    }
-  }
-
-  &.large {
-    height: 380px;
-  }
-
-  &:first-child {
-    margin-right: 7.5px;
-  }
-
-  &:last-child {
-    margin-left: 7.5px;
-  }
-
   .project-title {
-    height: 90px;
     padding: 0 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-    background-color: white;
-    opacity: 0.7;
-    position: absolute;
 
     h2 {
       font-weight: bold;
@@ -53,10 +28,15 @@
       color: #656565;
     }
 
-    p {
+    Link {
       font-weight: lighter;
       font-size: 16px;
       cursor: pointer;
+    }
+
+    p {
+      font-size: 16px;
+      text-align: justify;
     }
   }
 }
